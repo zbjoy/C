@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+      <FILENAME>maopaopaixu.c</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6201</DEFECTCODE>
+    <DESCRIPTION>索引“20”超出了“0”至“19”的有效范围(对于可能在堆栈中分配的缓冲区“a”)。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+      <FILENAME>maopaopaixu.c</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6201</DEFECTCODE>
+    <DESCRIPTION>索引“20”超出了“0”至“19”的有效范围(对于可能在堆栈中分配的缓冲区“a”)。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+      <FILENAME>maopaopaixu.c</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+      <FILENAME>maopaopaixu.c</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+      <FILENAME>maopaopaixu.c</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>正在从 "a" 读取无效数据。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+        <FILENAME>maopaopaixu.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+        <FILENAME>maopaopaixu.c</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“a”是一个 20 元素数组(80 字节)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+        <FILENAME>maopaopaixu.c</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+        <FILENAME>maopaopaixu.c</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+        <FILENAME>maopaopaixu.c</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+        <FILENAME>maopaopaixu.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+        <FILENAME>maopaopaixu.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“i&lt;n”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+        <FILENAME>maopaopaixu.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“a”是对“strlen”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\string.h:215 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dell\Desktop\visual studio progect\冒泡排序程序\冒泡排序程序\</FILEPATH>
+        <FILENAME>maopaopaixu.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>从“a[20]”中读取无效(可读范围是 0 到 19)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
