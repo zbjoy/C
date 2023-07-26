@@ -1,0 +1,6 @@
+﻿  判断是否旋转得到.c
+C:\Users\dell\Desktop\visual studio progect\两个字符串判断是否可以互相旋转得到\两个字符串判断是否可以互相旋转得到\判断是否旋转得到.c(19,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\dell\Desktop\visual studio progect\两个字符串判断是否可以互相旋转得到\两个字符串判断是否可以互相旋转得到\判断是否旋转得到.c(27,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\dell\Desktop\visual studio progect\两个字符串判断是否可以互相旋转得到\两个字符串判断是否可以互相旋转得到\判断是否旋转得到.c(28,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\dell\Desktop\visual studio progect\两个字符串判断是否可以互相旋转得到\两个字符串判断是否可以互相旋转得到\判断是否旋转得到.c(56,2): warning C4013: “gets”未定义；假设外部返回 int
+  两个字符串判断是否可以互相旋转得到.vcxproj -> C:\Users\dell\Desktop\visual studio progect\两个字符串判断是否可以互相旋转得到\x64\Debug\两个字符串判断是否可以互相旋转得到.exe
