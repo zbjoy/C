@@ -1,0 +1,5 @@
+﻿  员工分组.cpp
+C:\Users\dell\Desktop\visual studio  progect.cpp\013 员工分组(stl练习) cpp\013 员工分组(stl练习) cpp\员工分组.cpp(57,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\dell\Desktop\visual studio  progect.cpp\013 员工分组(stl练习) cpp\013 员工分组(stl练习) cpp\员工分组.cpp(66,17): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\dell\Desktop\visual studio  progect.cpp\013 员工分组(stl练习) cpp\013 员工分组(stl练习) cpp\员工分组.cpp(75,17): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  013 员工分组(stl练习) cpp.vcxproj -> C:\Users\dell\Desktop\visual studio  progect.cpp\013 员工分组(stl练习) cpp\x64\Debug\013 员工分组(stl练习) cpp.exe
