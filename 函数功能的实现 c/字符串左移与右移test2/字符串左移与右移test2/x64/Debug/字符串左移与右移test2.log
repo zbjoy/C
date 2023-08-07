@@ -1,0 +1,5 @@
+﻿  字符串左移与右移.c
+C:\Users\dell\Desktop\visual studio progect\简单算法练习\字符串左移与右移test2\字符串左移与右移test2\字符串左移与右移.c(9,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\dell\Desktop\visual studio progect\简单算法练习\字符串左移与右移test2\字符串左移与右移test2\字符串左移与右移.c(26,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\dell\Desktop\visual studio progect\简单算法练习\字符串左移与右移test2\字符串左移与右移test2\字符串左移与右移.c(61,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  字符串左移与右移test2.vcxproj -> C:\Users\dell\Desktop\visual studio progect\简单算法练习\字符串左移与右移test2\x64\Debug\字符串左移与右移test2.exe
