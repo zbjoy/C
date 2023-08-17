@@ -1,0 +1,9 @@
+﻿  contact.c
+C:\Users\dell\Desktop\visual studio progect.c\contact_test5.c\contact_test5.c\contact.c(63,9): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+C:\Users\dell\Desktop\visual studio progect.c\contact_test5.c\contact_test5.c\contact.c(71,11): warning C4098: “InItContact”:“void”函数返回值
+C:\Users\dell\Desktop\visual studio progect.c\contact_test5.c\contact_test5.c\contact.c(108,10): warning C4476: "printf": 格式说明符中的类型字段字符“\t”未知
+C:\Users\dell\Desktop\visual studio progect.c\contact_test5.c\contact_test5.c\contact.c(154,9): warning C4476: "printf": 格式说明符中的类型字段字符“\t”未知
+C:\Users\dell\Desktop\visual studio progect.c\contact_test5.c\contact_test5.c\contact.c(190,11): warning C4476: "printf": 格式说明符中的类型字段字符“\t”未知
+  main.c
+  正在生成代码...
+  contact_test5.c.vcxproj -> C:\Users\dell\Desktop\visual studio progect.c\contact_test5.c\x64\Debug\contact_test5.c.exe
