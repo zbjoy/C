@@ -1,0 +1,3 @@
+﻿  list.c
+C:\Users\dell\Desktop\visual studio progect.c\数据结构\student_test04_c\student_test04_c\list.h(1,1): warning C4828: 文件包含在偏移 0x425 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  student_test04_c.vcxproj -> C:\Users\dell\Desktop\visual studio progect.c\数据结构\student_test04_c\x64\Debug\student_test04_c.exe
