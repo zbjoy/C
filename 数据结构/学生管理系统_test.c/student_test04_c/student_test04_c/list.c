@@ -16,24 +16,24 @@ void menu()
 
 void LoadStudent(SeqList* psl)//从"student.txt"文件中将信息读取处理
 {
-	FILE* pfread = fopen("student.txt", "rb");
-	if (pfread == NULL)
+	FILE* pfRead = fopen("student.txt", "rb");
+	if (pfRead == NULL)
 	{
 		printf("LoadStudent::%s", strerror(errno));
 		return;
 	}
 
 	student temp;
-	while (fread(&temp, sizeof(student), 1, pfread));//加了个;导致数据只加载了一个!!!!!!!!
-	while (fread(&temp, sizeof(student), 1, pfread))
+	//while (fread(&temp, sizeof(student), 1, pfread));//加了个;导致数据只加载了一个!!!!!!!!
+	while (fread(&temp, sizeof(student), 1, pfRead))
 	{
 		CheckCapacity(psl);
 		psl->data[psl->size] = temp;
 		psl->size++;
 	}
 
-	fclose(pfread);
-	pfread = NULL;
+	fclose(pfRead);
+	pfRead = NULL;
 }
 
 void InItSeqList(SeqList* psl)//初始化
@@ -71,10 +71,10 @@ void CheckCapacity(SeqList* psl)//检查容量是否足够，不够realloc更多空间
 
 void saveStudent(SeqList* psl)//保存学生信息到student.txt文件
 {
-	FILE* pfwrite = fopen("student.txt", "wb");
+	FILE* pfWrite = fopen("student.txt", "wb");
 	if (fwrite == NULL)
 	{
-		printf("saveStudent::%s", strerror(errno));//判断错误原因
+		printf("saveStudent::%s\n", strerror(errno));//判断错误原因
 		return;
 	}
 
@@ -82,11 +82,11 @@ void saveStudent(SeqList* psl)//保存学生信息到student.txt文件
 	for (; i < psl->size; ++i)
 	{
 		//fwrite(&psl->data[i], sizeof(student), 1, pfwrite);
-		fwrite(&(psl->data[i]), sizeof(student), 1, pfwrite);
+		fwrite(&(psl->data[i]), sizeof(student), 1, pfWrite);
 	}
 
-	fclose(pfwrite);
-	pfwrite = NULL;
+	fclose(pfWrite);
+	pfWrite = NULL;
 }
 
 
@@ -232,6 +232,7 @@ void modifyStudent(SeqList* psl)//修改学生信息
 		if (ret == -1)
 		{
 			printf("查无此人\n");
+			return;
 		}
 		else
 		{
@@ -263,6 +264,7 @@ void modifyStudent(SeqList* psl)//修改学生信息
 			scanf("%s", psl->data[psl->size].m_Tele);
 			printf("请输入修改后学生的C语言成绩：");
 			scanf("%d", &psl->data[psl->size].m_Score);
+			saveStudent(psl);
 			printf("修改成功\n");
 		}
 		else
@@ -327,6 +329,12 @@ void deleteStudent(SeqList* psl)//删除学生信息
 			scanf("%s", Name);
 			ret = findStudent_Name(psl, Name);
 		}
+		/*else if (select == 3)
+		{
+			DestroyContact(psl);
+			printf("已全部删除!!!\n");
+			return;
+		}*/
 		else
 		{
 			printf("输入错误，请重新输入\n");
@@ -336,6 +344,7 @@ void deleteStudent(SeqList* psl)//删除学生信息
 		if (ret == -1)
 		{
 			printf("查无此人\n");
+			return;
 		}
 		else
 		{
@@ -362,6 +371,7 @@ void deleteStudent(SeqList* psl)//删除学生信息
 			}
 
 			psl->size--;
+			saveStudent(psl);
 			printf("删除成功\n");
 
 			
@@ -369,6 +379,7 @@ void deleteStudent(SeqList* psl)//删除学生信息
 		else
 		{
 			printf("已取消删除");
+			return;
 		}
 
 		printf("是否继续删除：\n");
@@ -382,9 +393,9 @@ void deleteStudent(SeqList* psl)//删除学生信息
 	}
 }
 
-void DestroyContact(SeqList* psl)//清空全部（销毁student.txt）
-{
-	free(psl);
-	psl = NULL;
-	printf("已清空所有学生信息\n");
-}
+//void DestroyContact(SeqList* psl)//清空全部（销毁student.txt）
+//{
+//	free(psl);
+//	psl = NULL;
+//	printf("已清空所有学生信息\n");
+//}

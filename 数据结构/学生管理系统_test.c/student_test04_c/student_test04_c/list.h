@@ -7,7 +7,7 @@
 
 #define NUMMAX 11
 #define NAMEMAX 10
-#define SEXMAX 3
+#define SEXMAX 6
 #define CLASSMAX 10
 #define TELEMAX 12
 
@@ -49,3 +49,5 @@ void modifyStudent(SeqList* psl);//修改学生信息
 void addStudent(SeqList* psl);//添加学生信息
 
 void deleteStudent(SeqList* psl);//删除学生信息
+
+//void DestroyContact(SeqList* psl);//删除全部
