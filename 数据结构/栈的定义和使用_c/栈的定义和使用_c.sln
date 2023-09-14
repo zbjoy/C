@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈的定义和使用_c", "栈的定义和使用_c\栈的定义和使用_c.vcxproj", "{E12729BE-5629-4B02-AB76-FD054ACC3359}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E12729BE-5629-4B02-AB76-FD054ACC3359}.Debug|x64.ActiveCfg = Debug|x64
+		{E12729BE-5629-4B02-AB76-FD054ACC3359}.Debug|x64.Build.0 = Debug|x64
+		{E12729BE-5629-4B02-AB76-FD054ACC3359}.Debug|x86.ActiveCfg = Debug|Win32
+		{E12729BE-5629-4B02-AB76-FD054ACC3359}.Debug|x86.Build.0 = Debug|Win32
+		{E12729BE-5629-4B02-AB76-FD054ACC3359}.Release|x64.ActiveCfg = Release|x64
+		{E12729BE-5629-4B02-AB76-FD054ACC3359}.Release|x64.Build.0 = Release|x64
+		{E12729BE-5629-4B02-AB76-FD054ACC3359}.Release|x86.ActiveCfg = Release|Win32
+		{E12729BE-5629-4B02-AB76-FD054ACC3359}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02CC37CF-B743-4BD1-B274-3BF13F07386D}
+	EndGlobalSection
+EndGlobal
