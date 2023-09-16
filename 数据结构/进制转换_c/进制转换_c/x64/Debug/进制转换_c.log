@@ -1,0 +1,3 @@
+﻿  进制转换.c
+C:\Users\dell\Desktop\visual studio progect.c\数据结构\进制转换_c\进制转换_c\进制转换.c(113,12): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  进制转换_c.vcxproj -> C:\Users\dell\Desktop\visual studio progect.c\数据结构\进制转换_c\x64\Debug\进制转换_c.exe
