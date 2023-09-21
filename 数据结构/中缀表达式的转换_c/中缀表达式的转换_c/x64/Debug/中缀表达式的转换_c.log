@@ -1,0 +1,6 @@
+﻿  main.c
+  tran.c
+C:\Users\dell\Desktop\visual studio progect.c\数据结构\中缀表达式的转换_c\中缀表达式的转换_c\tran.c(101,6): warning C4101: “t”: 未引用的局部变量
+  正在生成代码...
+C:\Users\dell\Desktop\visual studio progect.c\数据结构\中缀表达式的转换_c\中缀表达式的转换_c\tran.c(14): warning C4716: “Push_Char”: 必须返回一个值
+  中缀表达式的转换_c.vcxproj -> C:\Users\dell\Desktop\visual studio progect.c\数据结构\中缀表达式的转换_c\x64\Debug\中缀表达式的转换_c.exe
