@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\dell\Desktop\visual studio progect.c\数据结构\跳舞排序_队列_c\跳舞排序_队列_c\main.c(26): warning C4716: “InitDancer”: 必须返回一个值
+C:\Users\dell\Desktop\visual studio progect.c\数据结构\跳舞排序_队列_c\跳舞排序_队列_c\main.c(34): warning C4716: “InitQueue”: 必须返回一个值
+  跳舞排序_队列_c.vcxproj -> C:\Users\dell\Desktop\visual studio progect.c\数据结构\跳舞排序_队列_c\x64\Debug\跳舞排序_队列_c.exe
